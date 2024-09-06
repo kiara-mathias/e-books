@@ -1,0 +1,60 @@
+header {
+  color: white;
+
+  /* position: sticky; */
+  top: 0;
+  /* width: 100%;
+  height: fit-content; */
+}
+.logo {
+  background-color: black;
+}
+.coloredText {
+  color: red;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+  background-color: #aa3304;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+  float: right;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* .links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  display: inline;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: red;
+} */

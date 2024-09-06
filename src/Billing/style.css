@@ -1,0 +1,9 @@
+.cartB {
+  background-image: url("https://i.pinimg.com/originals/d5/fa/6c/d5fa6c8a8786fa4ca2bc06d77ddd2849.jpg");
+}
+header {
+  background-color: black;
+  align-items: center;
+  display: inline;
+  justify-content: flex;
+}

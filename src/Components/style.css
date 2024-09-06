@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.show-case-container {
+  height: 100vh;
+  width: 100%;
+
+  background-image: url("https://i.pinimg.com/originals/28/c2/a8/28c2a8b423bc04325ccfcd5a7b39ee45.jpg");
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showcase-content {
+  width: fit-content;
+  color: white;
+  z-index: 1;
+  text-align: center;
+}
+.row1 h4 {
+  font-size: 2rem;
+}
+.row2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  outline: 0;
+  border: 0;
+  width: 350px;
+  height: 35px;
+  padding: 0 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.search button {
+  outline: none;
+  border: none;
+  height: 35px;
+  padding: 0 0.5rem;
+  background-color: rgb(255, 204, 0);
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+  grid-gap: 20px;
+  box-sizing: border-box;
+}
+.card {
+  /* background-color: ; */
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 10px;
+  box-shadow: 0 5px 5px rgb(224, 155, 155);
+  transition: 5s;
+  text-align: center;
+  position: relative;
+}
+.card:hover {
+  transform: scale(0.9);
+  background-color: rgb(246, 246, 172);
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+}
+.overlay {
+  min-height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-inner {
+  background: white;
+  width: 700px;
+  height: fit-content;
+  padding: 1.5rem;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 1.3rem;
+}
+.overlay-inner .close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  background-color: transparent;
+}
+.overlay-inner .close:hover {
+  color: red;
+}
+.overlay-inner .inner-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.overlay-inner .inner-box img {
+  margin-right: 20px;
+  width: 150px;
+  height: 200px;
+}
+.overlay-inner .inner-box h3 {
+  /* margin-top: 10px; */
+  color: green;
+}
+.overlay-inner .inner-box h4 {
+  color: blue;
+}
+.overlay-inner .inner-box button {
+  outline: none;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #24a0ed;
+  color: white;
+  font-weight: bold;
+  padding: 0.3rem 0.5rem;
+}
+.overlay-inner .description {
+  margin-top: 2rem;
+  text-align: justify;
+  font-size: 11px;
+  overflow: auto;
+  height: 120px;
+  border: 2px solid black;
+  padding: 0.5rem;
+}
+.cart-btn {
+  background-color: rgb(255, 204, 0);
+  color: white;
+  border: none;
+  /* box-shadow: 0 5px 5px rgb(0, 0, 0); */
+  padding: 3px;
+}
