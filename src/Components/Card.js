@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import React, { useState } from "react";
 import Modal from "./Modal";
 
 const Card = ({ book }) => {
